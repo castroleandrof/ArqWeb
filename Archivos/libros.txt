@@ -1,0 +1,3 @@
+https://www.syncfusion.com/ebooks/http
+https://www.syncfusion.com/ebooks/aspnet_mvc_succinctly
+https://www.syncfusion.com/ebooks/w3_css_succinctly
