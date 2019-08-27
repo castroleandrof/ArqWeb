@@ -44,8 +44,13 @@ namespace mvcPet.Data
             }
             return result;
         }
-		
-        public Especie ReadBy(int id)
+
+        public void Delete(Especie especie)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Especie ReadBy(int id
         {
             const string SQL_STATEMENT = "SELECT [Id], [Nombre] FROM Especie WHERE [Id]=@Id ";
             Especie especie = null;

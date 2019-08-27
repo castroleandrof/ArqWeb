@@ -22,5 +22,22 @@ namespace mvcPet.Services
             var bc = new EspecieComponent();
             return bc.ListarTodos();
         }
+
+        public void Edit(Especie especie)
+        {
+            var bc = new EspecieComponent();
+            bc.Edit(especie);
+        }
+
+        public void Delete(int Id)
+        {
+            var bc = new EspecieComponent();
+            bc.Delete(Id);
+        }
+
+        public Especie Details(int Id) {
+            var bc = new EspecieComponent();
+            return bc.Details(Id);
+        }
     }
 }

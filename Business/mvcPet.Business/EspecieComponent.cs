@@ -24,5 +24,26 @@ namespace mvcPet.Business
             return result;
 
         }
+
+        public void Edit(Especie especie)
+        {
+            var especieDAC = new EspecieDAC();
+            especieDAC.Update(especie);
+        }
+
+        public void Delete(int Id)
+        {
+            var especieDAC = new EspecieDAC();
+            especieDAC.Delete(Id);
+        }
+
+        public Especie Details(int Id)
+        {
+            Especie result = default(Especie);
+            var especieDAC = new EspecieDAC();
+            result = EspecieDAC.ReadBy(Id);
+            return result;
+
+        }
     }
 }
