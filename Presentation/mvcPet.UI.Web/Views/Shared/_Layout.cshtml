@@ -3,12 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - My ASP.NET Applicatio</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
 </head>
 <body>
+
+   <!--<ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+    </ul>--> 
+
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -21,11 +28,25 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Salas", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Tipo de Servicio", "About", "Home")</li>
+                    <li>@Html.ActionLink("Tipo de Movimiento", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Especies", "Index", "Especie")</li>
+
                 </ul>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"
+                             aria-haspopup="true" aria-expanded="false">
+                        Más opciones
+                        <!--<span class="caret"></span>-->
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Opcion 1</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Opcion 2</a></li>
+                    </ul>
+                </div>
+                
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
@@ -34,7 +55,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Derechos Reservados</p>
         </footer>
     </div>
 
