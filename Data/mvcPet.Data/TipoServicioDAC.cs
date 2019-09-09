@@ -1,32 +1,32 @@
+﻿using Microsoft.Practices.EnterpriseLibrary.Data;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
-using Microsoft.Practices.EnterpriseLibrary.Data;
 using mvcPet.Entities;
 
 namespace mvcPet.Data
 {
-    public partial class EspecieDAC : DataAccessComponent, IRepository<Especie>
+    public partial class TipoServicioDAC : DataAccessComponent, IRepository<TipoServicio>
     {
-        public Especie Create(Especie especie)
+        public TipoServicio Create(TipoServicio tipo_servicio)
         {
-            const string SQL_STATEMENT = "INSERT INTO Especie ([Nombre]) VALUES(@Nombre); SELECT SCOPE_IDENTITY();";
+            const string SQL_STATEMENT = "INSERT INTO Tipo_Servicio ([Nombre]) VALUES(@Nombre); SELECT SCOPE_IDENTITY();";
 
             var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
             using (DbCommand cmd = db.GetSqlStringCommand(SQL_STATEMENT))
             {
-                db.AddInParameter(cmd, "@Nombre", DbType.AnsiString, especie.Nombre);
-                especie.Id = Convert.ToInt32(db.ExecuteScalar(cmd));
+                db.AddInParameter(cmd, "@Nombre", DbType.AnsiString, tipo_servicio.Nombre);
+                tipo_servicio.Id = Convert.ToInt32(db.ExecuteScalar(cmd));
             }
-            return especie;
+            return tipo_servicio;
         }
 		
-        public List<Especie> Read()
+        public List<TipoServicio> Read()
         {
-            const string SQL_STATEMENT = "SELECT [Id], [Nombre] FROM Especie ";
+            const string SQL_STATEMENT = "SELECT [Id], [Nombre] FROM Tipo_Servicio ";
 
-            List<Especie> result = new List<Especie>();
+            List<TipoServicio> result = new List<TipoServicio>();
             var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
             using (DbCommand cmd = db.GetSqlStringCommand(SQL_STATEMENT))
             {
@@ -34,23 +34,23 @@ namespace mvcPet.Data
                 {
                     while (dr.Read())
                     {
-                        Especie especie = LoadEspecie(dr);
-                        result.Add(especie);
+                        TipoServicio tipoServicio = LoadTipoServicio(dr);
+                        result.Add(tipoServicio);
                     }
                 }
             }
             return result;
         }
 
-        public void Delete(Especie especie)
+        public void Delete(TipoServicio tipoServicio)
         {
             throw new NotImplementedException();
         }
 
-        public Especie ReadBy(int id)
+        public TipoServicio ReadBy(int id)
         {
-            const string SQL_STATEMENT = "SELECT [Id], [Nombre] FROM Especie WHERE [Id]=@Id ";
-            Especie especie = null;
+            const string SQL_STATEMENT = "SELECT [Id], [Nombre] FROM Tipo_Servicio WHERE [Id]=@Id ";
+            TipoServicio tipoServicio = null;
 
             var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
             using (DbCommand cmd = db.GetSqlStringCommand(SQL_STATEMENT))
@@ -60,29 +60,29 @@ namespace mvcPet.Data
                 {
                     if (dr.Read())
                     {
-                        especie = LoadEspecie(dr);
+                        tipoServicio = LoadTipoServicio(dr);
                     }
                 }
             }
-            return especie;
+            return tipoServicio;
         }
 		
-        public void Update(Especie especie)
+        public void Update(TipoServicio tipo_servicio)
         {
-            const string SQL_STATEMENT = "UPDATE Especie SET [Nombre]= @Nombre WHERE [Id]= @Id ";
+            const string SQL_STATEMENT = "UPDATE Tipo_Servicio SET [Nombre]= @Nombre WHERE [Id]= @Id ";
 
             var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
             using (DbCommand cmd = db.GetSqlStringCommand(SQL_STATEMENT))
             {
-                db.AddInParameter(cmd, "@Nombre", DbType.AnsiString, especie.Nombre);
-                db.AddInParameter(cmd, "@Id", DbType.Int32, especie.Id);
+                db.AddInParameter(cmd, "@Nombre", DbType.AnsiString, tipo_servicio.Nombre);
+                db.AddInParameter(cmd, "@Id", DbType.Int32, tipo_servicio.Id);
                 db.ExecuteNonQuery(cmd);
             }
         }
 		
         public void Delete(int id)
         {
-            const string SQL_STATEMENT = "DELETE Especie WHERE [Id]= @Id ";
+            const string SQL_STATEMENT = "DELETE Tipo_Servicio WHERE [Id]= @Id ";
             var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
             using (DbCommand cmd = db.GetSqlStringCommand(SQL_STATEMENT))
             {
@@ -91,13 +91,12 @@ namespace mvcPet.Data
             }
         }
 		
-        private Especie LoadEspecie(IDataReader dr)
+        private TipoServicio LoadTipoServicio(IDataReader dr)
         {
-            Especie especie = new Especie();
-            especie.Id = GetDataValue<int>(dr, "Id");
-            especie.Nombre = GetDataValue<string>(dr, "Nombre");
-            return especie;
+            TipoServicio tipoServicio = new TipoServicio();
+            tipoServicio.Id = GetDataValue<int>(dr, "Id");
+            tipoServicio.Nombre = GetDataValue<string>(dr, "Nombre");
+            return tipoServicio;
         }
     }
 }
-
