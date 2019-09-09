@@ -1,25 +1,25 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ServiceModel;
 using mvcPet.Entities;
 
 namespace mvcPet.Services.Contracts
 {
     [ServiceContract]
-    public interface IEspecieService
+    public interface ITipoServicioService
     {
         [OperationContract]
-        Especie Agregar(Especie especie);
+        TipoServicio Agregar(TipoServicio tipoServicio);
 
         [OperationContract]
-        List<Especie> ListarTodos();
+        List<TipoServicio> ListarTodos();
 
         [OperationContract]
-        void Edit(Especie especie);
+        void Edit(TipoServicio tipoServicio);
 
         [OperationContract]
         void Delete(int Id);
 
         [OperationContract]
-        Especie Details(int Id);
+        TipoServicio Details(int Id);
     }
 }
