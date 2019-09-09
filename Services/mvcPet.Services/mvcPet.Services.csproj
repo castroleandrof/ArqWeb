@@ -41,7 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EspecieService.cs" />
+    <Compile Include="PrecioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoServicioService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Business\mvcPet.Business\mvcPet.Business.csproj">

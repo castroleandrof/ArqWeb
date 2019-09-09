@@ -29,5 +29,9 @@ namespace mvcPet.UI.Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<mvcPet.Entities.TipoServicio> TipoServicios { get; set; }
+
+        public System.Data.Entity.DbSet<mvcPet.Entities.Precio> Precios { get; set; }
     }
 }

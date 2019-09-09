@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IEspecieService.cs" />
+    <Compile Include="IPrecioService.cs" />
+    <Compile Include="ITipoServicioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

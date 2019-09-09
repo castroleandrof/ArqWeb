@@ -29,7 +29,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Salas", "Index", "Home")</li>
-                    <li>@Html.ActionLink("Tipo de Servicio", "About", "Home")</li>
+                    <li>@Html.ActionLink("Tipo de Servicio", "Index", "TipoServicio")</li>
                     <li>@Html.ActionLink("Tipo de Movimiento", "Contact", "Home")</li>
                     <li>@Html.ActionLink("Especies", "Index", "Especie")</li>
 
@@ -41,9 +41,9 @@
                         <!--<span class="caret"></span>-->
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Opcion 1</a></li>
+                        <li>@Html.ActionLink("Salas", "Index", "Home")</li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Opcion 2</a></li>
+                        <li>@Html.ActionLink("Tipo de Servicio", "Index", "TipoServicio")</li>
                     </ul>
                 </div>
                 

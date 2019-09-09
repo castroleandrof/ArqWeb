@@ -1,0 +1,5 @@
+C:\Users\Usuario\Documents\GitHub\ArqWeb\bin\mvcPet.Business.dll
+C:\Users\Usuario\Documents\GitHub\ArqWeb\bin\mvcPet.Business.pdb
+C:\Users\Usuario\Documents\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.dll
+C:\Users\Usuario\Documents\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.pdb

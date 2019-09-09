@@ -22,10 +22,10 @@ namespace mvcPet.Business
 
         }
 
-        public void Edit(TipoServicio especie)
+        public void Edit(TipoServicio tipoServicio)
         {
             var especieDAC = new TipoServicioDAC();
-            especieDAC.Update(especie);
+            especieDAC.Update(tipoServicio);
         }
 
         public void Delete(int Id)

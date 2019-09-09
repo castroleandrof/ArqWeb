@@ -1,0 +1,5 @@
+C:\Users\Usuario\Documents\GitHub\ArqWeb\bin\mvcPet.Entities.dll
+C:\Users\Usuario\Documents\GitHub\ArqWeb\bin\mvcPet.Entities.pdb
+C:\Users\Usuario\Documents\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.dll
+C:\Users\Usuario\Documents\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.pdb

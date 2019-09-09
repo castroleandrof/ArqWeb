@@ -49,7 +49,9 @@
     <Compile Include="DataAccessComponent.cs" />
     <Compile Include="EspecieDAC.cs" />
     <Compile Include="IRepository.cs" />
+    <Compile Include="PrecioDAC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TipoServicioDAC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
