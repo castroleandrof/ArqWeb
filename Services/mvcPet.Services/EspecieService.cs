@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.ServiceModel;
 using mvcPet.Business;
 using mvcPet.Entities;
