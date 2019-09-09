@@ -1,12 +1,10 @@
-using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using mvcPet.Entities;
 using mvcPet.Data;
 
 
 namespace mvcPet.Business
-{  
+{
     public partial class EspecieComponent
     {        
         public Especie Agregar(Especie especie)
@@ -41,7 +39,7 @@ namespace mvcPet.Business
         {
             Especie result = default(Especie);
             var especieDAC = new EspecieDAC();
-            result = EspecieDAC.ReadBy(Id);
+            result = especieDAC.ReadBy(Id);
             return result;
 
         }
