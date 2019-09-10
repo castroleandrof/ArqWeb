@@ -1,4 +1,5 @@
-﻿using mvcPet.Services;
+﻿using mvcPet.Entities;
+using mvcPet.Services;
 using mvcPet.Services.Contracts;
 using System;
 using System.Collections.Generic;
@@ -34,11 +35,14 @@ namespace mvcPet.UI.Web.Controllers
 
         // POST: Precio/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Precio modelo)
         {
             try
             {
                 // TODO: Add insert logic here
+
+                IPrecioService precioService = new PrecioService();
+                precioService.Agregar(modelo);
 
                 return RedirectToAction("Index");
             }
@@ -56,12 +60,13 @@ namespace mvcPet.UI.Web.Controllers
 
         // POST: Precio/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        public ActionResult Edit(Precio modelo)
         {
             try
             {
                 // TODO: Add update logic here
-
+                IPrecioService precioService = new PrecioService();
+                precioService.Edit(modelo);
                 return RedirectToAction("Index");
             }
             catch
@@ -78,12 +83,13 @@ namespace mvcPet.UI.Web.Controllers
 
         // POST: Precio/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, FormCollection collection)
+        public ActionResult Delete(Precio modelo)
         {
             try
             {
                 // TODO: Add delete logic here
-
+                IPrecioService precioService = new PrecioService();
+                precioService.Delete(modelo.Id);
                 return RedirectToAction("Index");
             }
             catch

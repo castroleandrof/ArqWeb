@@ -258,6 +258,10 @@
     <Content Include="Views\TipoServicio\Delete.cshtml" />
     <Content Include="Views\TipoServicio\Details.cshtml" />
     <Content Include="Views\Precio\Index.cshtml" />
+    <Content Include="Views\Precio\Details.cshtml" />
+    <Content Include="Views\Precio\Create.cshtml" />
+    <Content Include="Views\Precio\Edit.cshtml" />
+    <Content Include="Views\Precio\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -4,9 +4,10 @@ using mvcPet.Services.Contracts;
 using System.Web.Mvc;
 
 namespace mvcPet.UI.Web.Controllers
-{
+{   [Authorize]
     public class EspecieController : Controller
     {
+
         // GET: Especie
         public ActionResult Index()
         {
