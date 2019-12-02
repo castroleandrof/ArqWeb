@@ -3,3 +3,8 @@ C:\Users\Usuario\Documents\GitHub\ArqWeb\bin\mvcPet.Framework.pdb
 C:\Users\Usuario\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.csprojResolveAssemblyReference.cache
 C:\Users\Usuario\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.dll
 C:\Users\Usuario\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.pdb
+C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Framework.dll
+C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Framework.pdb
+C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.csprojResolveAssemblyReference.cache
+C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.dll
+C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.pdb
