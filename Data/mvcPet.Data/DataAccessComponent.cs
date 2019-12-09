@@ -36,6 +36,36 @@ namespace mvcPet.Data
                 return default(T);
         }
 
+        protected static Int16 GetInt16Value(IDataReader dr, string columnName)
+        {
+            int i = dr.GetOrdinal(columnName);
+
+            if (!dr.IsDBNull(i))
+                return dr.GetInt16(i);
+            else
+                return default(Int16);
+        }
+
+        protected static DateTime GetDateTimeValue(IDataReader dr, string columnName)
+        {
+            int i = dr.GetOrdinal(columnName);
+
+            if (!dr.IsDBNull(i))
+                return dr.GetDateTime(i);
+            else
+                return default(DateTime);
+        }
+
+        protected static T GetEnumValue<T>(IDataReader dr, string columnName)
+        {
+            int i = dr.GetOrdinal(columnName);
+
+            if (!dr.IsDBNull(i))
+                return (T)Enum.Parse(typeof(T), dr.GetString(i));
+            else
+                return default(T);
+        }
+
         protected string FormatFilterStatement(string filter)
         {
             return Regex.Replace(filter, "^(AND|OR)", string.Empty);

@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICitaService.cs" />
+    <Compile Include="IClienteService.cs" />
     <Compile Include="IEspecieService.cs" />
+    <Compile Include="IMedicoService.cs" />
+    <Compile Include="IMovimientoService.cs" />
+    <Compile Include="IPacienteService.cs" />
     <Compile Include="IPrecioService.cs" />
+    <Compile Include="ISalaService.cs" />
+    <Compile Include="ITipoMovimientoService.cs" />
     <Compile Include="ITipoServicioService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

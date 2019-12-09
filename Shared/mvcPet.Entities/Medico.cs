@@ -13,10 +13,10 @@ namespace mvcPet.Entities
         [DisplayName("Id")]
         public int Id { get; set; }
 
-        [DisplayName("Tipo de Matrícula")]
+        [DisplayName("Tipo Matrícula")]
         public TipoMatricula TipoMatricula { get; set; }
 
-        [DisplayName("Número de Matrícula")]
+        [DisplayName("Matrícula")]
         public int NumeroMatricula { get; set; }
 
         [DisplayName("Apellido")]

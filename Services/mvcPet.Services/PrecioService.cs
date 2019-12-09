@@ -1,5 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.ServiceModel;
+using System.Text;
+using System.Threading.Tasks;
 using mvcPet.Business;
 using mvcPet.Entities;
 using mvcPet.Services.Contracts;
@@ -15,28 +19,41 @@ namespace mvcPet.Services
             return bc.Agregar(precio);
         }
 
+        public Precio BuscarPorId(int id)
+        {
+            var bc = new PrecioComponent();
+            return bc.Details(id);
+        }
+
+        public List<Precio> BuscarPorTipoServicio(int tipoServicioId)
+        {
+            var bc = new PrecioComponent();
+            return bc.BuscarPorTipoServicio(tipoServicioId);
+        }
+
+        public Precio Editar(Precio precio)
+        {
+            var bc = new PrecioComponent();
+            return bc.Editar(precio);
+        }
+
         public List<Precio> ListarTodos()
         {
             var bc = new PrecioComponent();
             return bc.ListarTodos();
         }
 
-        public void Edit(Precio precio)
+        public Precio Eliminar(int id)
         {
             var bc = new PrecioComponent();
-            bc.Edit(precio);
+            return bc.Eliminar(id);
         }
 
-        public void Delete(int Id)
+        public void EliminarTodos(int tipoServicioId)
         {
             var bc = new PrecioComponent();
-            bc.Delete(Id);
-        }
-
-        public Precio Details(int Id)
-        {
-            var bc = new PrecioComponent();
-            return bc.Details(Id);
+            bc.EliminarTodos(tipoServicioId);
+            return;
         }
     }
 }

@@ -9,8 +9,7 @@ namespace mvcPet.Entities
     public enum TipoSala
     {
         Recuperación,
-        Vacunatorio,
-        Quirófano
+        Vacunatorio
     }
 
     public enum TipoMatricula

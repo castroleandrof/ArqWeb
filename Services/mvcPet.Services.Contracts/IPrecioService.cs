@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using mvcPet.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.ServiceModel;
-using mvcPet.Entities;
-
+using System.Text;
+using System.Threading.Tasks;
 
 namespace mvcPet.Services.Contracts
 {
@@ -9,18 +12,24 @@ namespace mvcPet.Services.Contracts
     public interface IPrecioService
     {
         [OperationContract]
-        Precio Agregar(Precio precioServicio);
+        Precio Agregar(Precio precio);
+
+        [OperationContract]
+        Precio Editar(Precio precio);
+
+        [OperationContract]
+        List<Precio> BuscarPorTipoServicio(int tipoServicioId);
+
+        [OperationContract]
+        Precio BuscarPorId(int id);
 
         [OperationContract]
         List<Precio> ListarTodos();
 
         [OperationContract]
-        void Edit(Precio precioServicio);
+        Precio Eliminar(int id);
 
         [OperationContract]
-        void Delete(int Id);
-
-        [OperationContract]
-        Precio Details(int Id);
+        void EliminarTodos(int tipoServicioId);
     }
 }
