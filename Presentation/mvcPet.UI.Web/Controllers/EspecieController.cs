@@ -10,8 +10,9 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace mvcPet.UI.Web.Controllers
-{   [Authorize]
-    public class EspecieController : Controller
+{
+    [Authorize]
+    public class EspecieController : BaseController
     {
         private IEspecieService _especieService;
 
@@ -20,13 +21,16 @@ namespace mvcPet.UI.Web.Controllers
             _especieService = especieService;
         }
 
+        public EspecieController()
+        { }
+
 
        // [Authorize]
         public ActionResult Index()
         {
             IEspecieService especieService = new EspecieService();
             var lista = especieService.ListarTodos();
-           this.LogService.Log("Listar especies.");
+            //LogService.Log("Listar especies.");
             return View(lista);
         }
 
@@ -40,7 +44,7 @@ namespace mvcPet.UI.Web.Controllers
         }
 
         // GET: Especie/Create
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles="Admin")]
         public ActionResult Create()
         {
 
@@ -48,7 +52,7 @@ namespace mvcPet.UI.Web.Controllers
         }
 
         // POST: Especie/Create
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles="Admin")]
         [HttpPost]
         public ActionResult Create(Especie modelo)
         {

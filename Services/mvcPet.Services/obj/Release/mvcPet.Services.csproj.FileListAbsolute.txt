@@ -1,0 +1,7 @@
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Services.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Services.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Services.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services\obj\Release\mvcPet.Services.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services\obj\Release\mvcPet.Services.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services\obj\Release\mvcPet.Services.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services\obj\Release\mvcPet.Services.pdb

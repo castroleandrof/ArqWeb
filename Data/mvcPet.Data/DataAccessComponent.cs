@@ -9,6 +9,7 @@ namespace mvcPet.Data
     /// <summary>
     /// Base data access component class.
     /// </summary>
+    
     public abstract class DataAccessComponent
     {
         protected const string CONNECTION_NAME = "DefaultConnection";

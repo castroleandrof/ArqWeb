@@ -8,3 +8,10 @@ C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Framework.pdb
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.csprojResolveAssemblyReference.cache
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.dll
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Framework.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Framework.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Framework.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Debug\mvcPet.Framework.pdb

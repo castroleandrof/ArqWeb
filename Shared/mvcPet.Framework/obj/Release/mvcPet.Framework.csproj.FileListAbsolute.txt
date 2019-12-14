@@ -1,0 +1,5 @@
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Framework.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Framework.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Release\mvcPet.Framework.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Release\mvcPet.Framework.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Framework\obj\Release\mvcPet.Framework.csprojResolveAssemblyReference.cache

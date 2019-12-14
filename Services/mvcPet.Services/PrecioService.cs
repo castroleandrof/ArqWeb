@@ -49,11 +49,5 @@ namespace mvcPet.Services
             return bc.Eliminar(id);
         }
 
-        public void EliminarTodos(int tipoServicioId)
-        {
-            var bc = new PrecioComponent();
-            bc.EliminarTodos(tipoServicioId);
-            return;
-        }
     }
 }

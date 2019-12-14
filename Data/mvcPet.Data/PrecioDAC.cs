@@ -69,7 +69,29 @@ namespace mvcPet.Data
                 return precio;
             }
 
-            public void Update(Precio precio)
+        public List<Precio> ReadByTipoServicioId(int tipoServicioId)
+        {
+            const string SQL_STATEMENT = "SELECT [Id],[TipoServicioId],[FechaDesde],[FechaHasta],[Valor] FROM Precio WHERE [TipoServicioId]=@TipoServicioId ";
+
+            List<Precio> result = new List<Precio>();
+
+            var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
+            using (DbCommand cmd = db.GetSqlStringCommand(SQL_STATEMENT))
+            {
+                db.AddInParameter(cmd, "@TipoServicioId", DbType.Int32, tipoServicioId);
+                using (IDataReader dr = db.ExecuteReader(cmd))
+                {
+                    while (dr.Read())
+                    {
+                        Precio precio = LoadPrecio(dr);
+                        result.Add(precio);
+                    }
+                }
+            }
+            return result;
+        }
+
+        public void Update(Precio precio)
             {
                 const string SQL_STATEMENT = "UPDATE Precio SET [Nombre]= @Nombre WHERE [Id]= @Id ";
 

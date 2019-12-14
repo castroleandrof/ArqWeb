@@ -17,7 +17,16 @@ namespace mvcPet.Business
                 result = precioDAC.Create(tipoServicio);
                 return result;
             }
-            public List<Precio> ListarTodos()
+
+        public List<Precio> BuscarPorTipoServicio(int tipoServicioId)
+        {
+            List<Precio> result = default(List<Precio>);
+            var precioDAC = new PrecioDAC();
+            result = precioDAC.ReadByTipoServicioId(tipoServicioId);
+            return result;
+        }
+
+        public List<Precio> ListarTodos()
             {
                 List<Precio> result = default(List<Precio>);
                 var precioDAC = new PrecioDAC();
@@ -32,11 +41,25 @@ namespace mvcPet.Business
                 especieDAC.Update(precio);
             }
 
-            public void Delete(int Id)
+           public Precio Editar(Precio precio)
+        {
+            Precio result = default(Precio);
+            var precioDAC = new PrecioDAC();
+            precioDAC.Update(precio);
+            result = precio;
+            return result;
+        }
+
+        public Precio Eliminar (int Id)
+            
             {
+                Precio result = default(Precio);
                 var precioDAC = new PrecioDAC();
+                result = precioDAC.ReadBy(Id);
                 precioDAC.Delete(Id);
+                return result;
             }
+        
 
             public Precio Details(int Id)
             {

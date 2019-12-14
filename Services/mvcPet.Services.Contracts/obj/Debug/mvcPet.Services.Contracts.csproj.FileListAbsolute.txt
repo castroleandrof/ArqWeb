@@ -8,3 +8,10 @@ C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Services.Contracts.pdb
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.csprojResolveAssemblyReference.cache
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.dll
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Services.Contracts.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Services.Contracts.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Services.Contracts.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Services\mvcPet.Services.Contracts\obj\Debug\mvcPet.Services.Contracts.pdb

@@ -28,8 +28,5 @@ namespace mvcPet.Services.Contracts
 
         [OperationContract]
         Precio Eliminar(int id);
-
-        [OperationContract]
-        void EliminarTodos(int tipoServicioId);
     }
 }

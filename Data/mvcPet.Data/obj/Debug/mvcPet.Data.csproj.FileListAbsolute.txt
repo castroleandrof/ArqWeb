@@ -8,3 +8,10 @@ C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Data.pdb
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.csprojResolveAssemblyReference.cache
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.dll
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Data.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Data.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Data.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\Data\mvcPet.Data\obj\Debug\mvcPet.Data.csproj.App.config

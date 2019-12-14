@@ -8,3 +8,10 @@ C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Business.pdb
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.csprojResolveAssemblyReference.cache
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.dll
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Business.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Business.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Business.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Debug\mvcPet.Business.csproj.App.config

@@ -8,3 +8,10 @@ C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.pdb
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Entities.dll
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\bin\mvcPet.Entities.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Entities.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Entities.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Entities.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Shared\mvcPet.Entities\obj\Debug\mvcPet.Entities.pdb

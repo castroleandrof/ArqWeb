@@ -1,0 +1,7 @@
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Business.dll.config
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Business.dll
+e:\leandro\Documentos\GitHub\ArqWeb\bin\mvcPet.Business.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Release\mvcPet.Business.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Release\mvcPet.Business.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Release\mvcPet.Business.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Business\mvcPet.Business\obj\Release\mvcPet.Business.pdb

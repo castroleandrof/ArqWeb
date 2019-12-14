@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using mvcPet.UI.Proces;
 
 namespace mvcPet.UI.Web.Controllers
 {
@@ -11,7 +12,8 @@ namespace mvcPet.UI.Web.Controllers
         // GET: Cita
         public ActionResult Index()
         {
-            return View();
+            var cp = new CitaProcess();
+            return View(cp.ListarCita());
         }
 
         // GET: Cita/Details/5

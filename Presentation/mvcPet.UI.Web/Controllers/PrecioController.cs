@@ -66,7 +66,7 @@ namespace mvcPet.UI.Web.Controllers
             {
                 // TODO: Add update logic here
                 IPrecioService precioService = new PrecioService();
-                precioService.Edit(modelo);
+                precioService.Editar(modelo);
                 return RedirectToAction("Index");
             }
             catch
@@ -89,7 +89,7 @@ namespace mvcPet.UI.Web.Controllers
             {
                 // TODO: Add delete logic here
                 IPrecioService precioService = new PrecioService();
-                precioService.Delete(modelo.Id);
+                precioService.Eliminar(modelo.Id);
                 return RedirectToAction("Index");
             }
             catch

@@ -1,0 +1,2 @@
+e:\leandro\Documentos\GitHub\ArqWeb\Web\obj\Debug\mvcPet.Hosts.Web.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Web\obj\Debug\mvcPet.Hosts.Web.csprojResolveAssemblyReference.cache

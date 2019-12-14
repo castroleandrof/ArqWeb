@@ -1,29 +1,51 @@
 ﻿using mvcPet.Business;
 using mvcPet.Entities;
+using mvcPet.Services.Contracts.Requests;
+using mvcPet.Services.Contracts.Responses;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace mvcPet.Services.Http
+namespace mvcPet.Services
 {
     [RoutePrefix("api/Cita")]
     public class CitaApiService : ApiController
     {
 
         [HttpGet]
-        [Route("ListarTodas")]
-        public List<Cita> ToList()
+        [Route("Listar")]
+        public ToListResponse ToList()
         {
             try
             {
-                var response = new List<Cita>();
+                var response = new ToListResponse();
                 var bc = new CitaComponent();
-                response = bc.ListarTodos();
+                response.Result = bc.ListarTodos();
+                return response;
+            }
+            catch (Exception ex)
+            {
+                var httpError = new HttpResponseMessage()
+                {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
+        [HttpPost]
+        [Route("Agregar")]
+        public AddResponse Add(AddRequest request)
+        {
+            try
+            {
+                var response = new AddResponse();
+                var bc = new CitaComponent();
+                response.Result = bc.Agregar(request.Cita);
                 return response;
             }
             catch (Exception ex)

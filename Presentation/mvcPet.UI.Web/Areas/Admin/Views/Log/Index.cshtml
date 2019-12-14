@@ -1,0 +1,63 @@
+﻿@model mvcPet.UI.Web.Areas.Admin.Models.ListLogViewModel
+
+@{
+    ViewBag.Title = "Log";
+}
+
+<h2>Log</h2>
+
+<p>
+    @Html.ActionLink("Limpiar Log", "ClearLog", null, new {@class="btn btn-danger" })
+</p>
+
+@if (Model.LogFiles.Any())
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LogFiles.FirstOrDefault().Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogFiles.FirstOrDefault().Module)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogFiles.FirstOrDefault().Method)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogFiles.FirstOrDefault().DeclaringType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogFiles.FirstOrDefault().LineNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LogFiles.FirstOrDefault().ErrorMessage)
+            </th>
+        </tr>
+
+        @foreach (var item in Model.LogFiles)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Module)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Method)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeclaringType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LineNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ErrorMessage)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+}

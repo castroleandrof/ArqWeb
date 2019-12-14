@@ -33,5 +33,13 @@ namespace mvcPet.UI.Web.Models
         public System.Data.Entity.DbSet<mvcPet.Entities.TipoServicio> TipoServicios { get; set; }
 
         public System.Data.Entity.DbSet<mvcPet.Entities.Precio> Precios { get; set; }
+
+        public System.Data.Entity.DbSet<mvcPet.Entities.Cita> Citas { get; set; }
+
+        public System.Data.Entity.DbSet<mvcPet.Entities.Medico> Medicos { get; set; }
+
+        public System.Data.Entity.DbSet<mvcPet.Entities.Paciente> Pacientes { get; set; }
+
+        public System.Data.Entity.DbSet<mvcPet.Entities.Sala> Salas { get; set; }
     }
 }

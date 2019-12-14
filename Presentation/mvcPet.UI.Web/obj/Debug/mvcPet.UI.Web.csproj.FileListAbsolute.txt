@@ -168,3 +168,7 @@ C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Mi
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.csprojResolveAssemblyReference.cache
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.dll
 C:\Users\lcastro.UNPAZ\Documents\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.pdb
+e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.csproj.App.config
+e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.csprojResolveAssemblyReference.cache
+e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Debug\mvcPet.UI.Web.pdb
