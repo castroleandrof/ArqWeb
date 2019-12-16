@@ -1,0 +1,45 @@
+﻿@model IEnumerable<mvcPet.Entities.Cita>
+
+@{
+    ViewBag.Title = "Citas";
+}
+
+<h2>Citas</h2>
+
+<p>
+    @Html.ActionLink("Nueva Cita", "Create", new { pacienteId = TempData["pacienteId"] }, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Fecha)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estado)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fecha)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estado)
+        </td>
+        <td>
+            <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                @Html.ActionLink("Editar", "Edit", new { id = item.Id }, new { @class = "btn btn-success" })
+                @Html.ActionLink("Detalle", "Details", new { id = item.Id }, new { @class = "btn btn-info" })
+                @Html.ActionLink("Cambiar Estado", "StateChange", new { id = item.Id }, new { @class = "btn btn-warning" })
+            </div>            
+        </td>
+    </tr>
+}
+
+</table>
+
+<div>
+    @Html.ActionLink("Volver", "ListarPorCliente", "Paciente", new { clienteId = TempData["clienteId"] }, new { @class = "btn btn-primary" })
+</div>

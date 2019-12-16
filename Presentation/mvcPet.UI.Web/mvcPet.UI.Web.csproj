@@ -312,6 +312,7 @@
     <Content Include="Views\Precio\Delete.cshtml" />
     <Content Include="Views\Cita\Index.cshtml" />
     <Content Include="Views\Cita\Create.cshtml" />
+    <Content Include="Views\Cita\ListarCitas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
