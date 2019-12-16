@@ -40,7 +40,7 @@ namespace mvcPet.Entities
 
         [Required]
         [DisplayName("Estado")]
-        public Estado Estado { get; set; }
+        public string Estado { get; set; }
 
         [Required]
         [DisplayName("CreatedBy")]

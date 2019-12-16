@@ -33,7 +33,7 @@ namespace mvcPet.Services
             bc.Delete(Id);
         }
 
-        public TipoServicio Details(int Id)
+        public TipoServicio BuscarPorId(int Id)
         {
             var bc = new TipoServicioComponent();
             return bc.Details(Id);

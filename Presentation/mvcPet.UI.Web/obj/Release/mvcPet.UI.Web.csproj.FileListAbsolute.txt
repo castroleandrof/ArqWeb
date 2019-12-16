@@ -36,9 +36,6 @@ e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\mvcPet.Servic
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\mvcPet.Services.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Newtonsoft.Json.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Owin.dll
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Extensions.dll
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Formatting.dll
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Primitives.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Web.Helpers.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Web.Http.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Web.Http.WebHost.dll
@@ -60,9 +57,6 @@ e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\mvcPet.Entiti
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\mvcPet.Framework.pdb
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Newtonsoft.Json.xml
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Extensions.xml
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Formatting.xml
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Primitives.xml
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Web.Http.xml
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Web.Http.WebHost.xml
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Web.Helpers.xml
@@ -91,7 +85,6 @@ e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\mvcPet.Busine
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\mvcPet.Data.pdb
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
-e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Release\mvcPet.UI.Web.csproj.App.config
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Release\mvcPet.UI.Web.csprojResolveAssemblyReference.cache
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Release\mvcPet.UI.Web.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\obj\Release\mvcPet.UI.Web.pdb
@@ -103,3 +96,5 @@ e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Securi
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Security.Cryptography.Encoding.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Security.Cryptography.Primitives.dll
 e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Security.Cryptography.X509Certificates.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Formatting.dll
+e:\leandro\Documentos\GitHub\ArqWeb\Presentation\mvcPet.UI.Web\bin\System.Net.Http.Formatting.xml

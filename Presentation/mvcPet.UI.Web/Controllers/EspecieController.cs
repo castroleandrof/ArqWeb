@@ -30,7 +30,7 @@ namespace mvcPet.UI.Web.Controllers
         {
             IEspecieService especieService = new EspecieService();
             var lista = especieService.ListarTodos();
-            //LogService.Log("Listar especies.");
+         //   LogService.Log("Listar especies.");
             return View(lista);
         }
 

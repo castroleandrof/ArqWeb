@@ -131,7 +131,7 @@ namespace mvcPet.Data
         {
             try
             {
-                const string SQL_STATEMENT = "SELECT [Id],[Fecha],[MedicoId],[PacienteId],[SalaId],[TipoServicioId],[Estado],[CreatedBy],[CreatedDate],[ChangedBy],[ChangedDate],[DeletedBy],[DeletedDate],[Deleted] FROM Cita";
+                const string SQL_STATEMENT = "SELECT [Id],[Fecha],[MedicoId],[PacienteId],[SalaId],[TipoServicioId],[Estado],[CreatedBy],[CreatedDate],[ChangedBy],[ChangedDate],[DeletedBy],[DeletedDate],[Deleted] FROM dbo.Cita";
 
                 List<Cita> result = new List<Cita>();
                 var db = DatabaseFactory.CreateDatabase(CONNECTION_NAME);
@@ -225,7 +225,7 @@ namespace mvcPet.Data
             cita.PacienteId = GetDataValue<int>(dr, "PacienteId");
             cita.SalaId = GetDataValue<int>(dr, "SalaId");
             cita.TipoServicioId = GetDataValue<int>(dr, "TipoServicioId");
-            cita.Estado = GetEnumValue<Estado>(dr, "Estado");
+            cita.Estado = GetDataValue<string>(dr, "Estado");
             cita.CreatedBy = GetDataValue<string>(dr, "CreatedBy");
             cita.CreatedDate = GetDateTimeValue(dr, "CreatedDate");
             cita.ChangedBy = GetDataValue<string>(dr, "ChangedBy");

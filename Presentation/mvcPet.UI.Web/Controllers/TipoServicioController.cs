@@ -20,7 +20,7 @@ namespace mvcPet.UI.Web.Controllers
         public ActionResult Details(TipoServicio modelo)
         {
             ITipoServicioService tipoServicioService = new TipoServicioService();
-            var tipoServicio = tipoServicioService.Details(modelo.Id);
+            var tipoServicio = tipoServicioService.BuscarPorId(modelo.Id);
             return View(tipoServicio); 
         }
 

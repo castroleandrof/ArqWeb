@@ -60,9 +60,8 @@ namespace mvcPet.Business
 
         public List<Cita> ListarTodos()
         {
-            List<Cita> result = default(List<Cita>);
             var citaDAC = new CitaDAC();
-            result = citaDAC.Read();
+            var result = citaDAC.Read();
             return result;
         }
     }

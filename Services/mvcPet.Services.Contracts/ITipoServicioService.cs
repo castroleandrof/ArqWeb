@@ -20,6 +20,6 @@ namespace mvcPet.Services.Contracts
         void Delete(int Id);
 
         [OperationContract]
-        TipoServicio Details(int Id);
+        TipoServicio BuscarPorId(int Id);
     }
 }

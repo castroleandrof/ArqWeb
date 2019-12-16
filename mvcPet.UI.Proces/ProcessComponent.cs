@@ -75,7 +75,7 @@ namespace mvcPet.UI.Proces
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(mediaType));
 
                 var response = client.GetAsync(pathAndQuery).Result;
-                response.EnsureSuccessStatusCode();
+              // response.EnsureSuccessStatusCode();
 
                 result = response.Content.ReadAsAsync<T>().Result;
             }

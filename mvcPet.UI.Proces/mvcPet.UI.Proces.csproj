@@ -162,10 +162,6 @@
       <Project>{0d248c7f-7e88-4aae-8453-9e1f865b482d}</Project>
       <Name>mvcPet.Framework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Web\mvcPet.Hosts.Web.csproj">
-      <Project>{5026a879-cd9e-4e0e-8ba1-054d8c02833d}</Project>
-      <Name>mvcPet.Hosts.Web</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

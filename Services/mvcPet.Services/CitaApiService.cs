@@ -10,53 +10,56 @@ using System.Web.Http;
 
 namespace mvcPet.Services
 {
-    [RoutePrefix("api/Cita")]
     public class CitaApiService : ApiController
     {
-
-        [HttpGet]
-        [Route("Listar")]
-        public ToListResponse ToList()
+        [RoutePrefix("api/Cita")]
+        public class CitaService : ApiController
         {
-            try
+
+            [HttpGet]
+            [Route("ToList")]
+            public ToListResponse ToList()
             {
-                var response = new ToListResponse();
-                var bc = new CitaComponent();
-                response.Result = bc.ListarTodos();
-                return response;
-            }
-            catch (Exception ex)
-            {
-                var httpError = new HttpResponseMessage()
+                try
                 {
-                    StatusCode = (HttpStatusCode)422,
-                    ReasonPhrase = ex.Message
-                };
-
-                throw new HttpResponseException(httpError);
-            }
-        }
-
-        [HttpPost]
-        [Route("Agregar")]
-        public AddResponse Add(AddRequest request)
-        {
-            try
-            {
-                var response = new AddResponse();
-                var bc = new CitaComponent();
-                response.Result = bc.Agregar(request.Cita);
-                return response;
-            }
-            catch (Exception ex)
-            {
-                var httpError = new HttpResponseMessage()
+                    var response = new ToListResponse();
+                    var bc = new CitaComponent();
+                    response.Result = bc.ListarTodos();
+                    return response;
+                }
+                catch (Exception ex)
                 {
-                    StatusCode = (HttpStatusCode)422,
-                    ReasonPhrase = ex.Message
-                };
+                    var httpError = new HttpResponseMessage()
+                    {
+                        StatusCode = (HttpStatusCode)422,
+                        ReasonPhrase = ex.Message
+                    };
 
-                throw new HttpResponseException(httpError);
+                    throw new HttpResponseException(httpError);
+                }
+            }
+
+            [HttpPost]
+            [Route("Add")]
+            public AddResponse Add(AddRequest request)
+            {
+                try
+                {
+                    var response = new AddResponse();
+                    var bc = new CitaComponent();
+                    response.Result = bc.Agregar(request.Cita);
+                    return response;
+                }
+                catch (Exception ex)
+                {
+                    var httpError = new HttpResponseMessage()
+                    {
+                        StatusCode = (HttpStatusCode)422,
+                        ReasonPhrase = ex.Message
+                    };
+
+                    throw new HttpResponseException(httpError);
+                }
             }
         }
     }

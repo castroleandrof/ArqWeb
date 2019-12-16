@@ -19,7 +19,7 @@ namespace mvcPet.UI.Proces
             return lista.Result;
         }
 
-        public Cita AddSettings(Cita cita)
+        public Cita AddCita(Cita cita)
         {
             var result = default(Cita);
             try
